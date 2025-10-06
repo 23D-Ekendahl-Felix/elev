@@ -23,14 +23,13 @@ public class App {
         System.out.println("Skriv in Elevens program");
         ny_elev.Program = Tb.nextLine();
 
-        System.out.println("Elevens namn är: " + ny_elev.Namn);
+        System.out.println("\nElevens namn är: " + ny_elev.Namn);
         System.out.println("Elevens personnummer är: " + ny_elev.Personnummer);
         System.out.println("Elevens email är: " + ny_elev.Email);
         System.out.println("Elevens mobilnummer är: " + ny_elev.mobilnummer);
         System.out.println("Elevens klass är: " + ny_elev.Klass);
         System.out.println("Elevens program är: " + ny_elev.Program);
-
         Tb.close();
 
     }
-}
+}   
